@@ -347,21 +347,20 @@ section {
 
 
 .button {
-  padding: 7px 20px; 
+  padding: 5px 10px; 
   background-color: #b13942; 
   color: white; 
   border: none; 
-  border-radius: 5px; 
   cursor: pointer; 
   font-size: 16px; 
   transition: all 0.3s ease; 
-  font-weight: bolder;
+  
 }
 
 .button:hover {
-  background-color: white;
-  color:maroon ;
-  font-weight: bolder;
+  background-color: #b13942;
+  color:white ;
+ 
 }
 
 /* Media Query for Responsive Button */
@@ -2285,7 +2284,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 @keyframes animate-loading {
@@ -3134,6 +3133,12 @@ margin-left: -5x;
   cursor: pointer; 
   font-size: 16px; 
   transition: all 0.3s ease; 
+  font-weight: bolder;
+}
+
+.buttonAccomodation:hover {
+  background-color: white;
+  color:maroon ;
   font-weight: bolder;
 }
 
