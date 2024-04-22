@@ -36,7 +36,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  
+
 }
 
 a {
@@ -66,7 +66,7 @@ section {
   overflow: hidden;
   scroll-margin-top: 70px;
   overflow: clip;
-  
+
 }
 
 .sections-bg {
@@ -106,14 +106,15 @@ section {
 
 .tour-header p {
   margin-bottom: 0;
-  color: #6f6f6f;}
+  color: #6f6f6f;
+}
 
 .tour-header h2 {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  margin-left:200px;
+  margin-left: 200px;
   position: relative;
 }
 
@@ -282,7 +283,7 @@ section {
 .diagnalBox {
   background-color: black;
   width: 700px;
-  height:550px;
+  height: 550px;
   opacity: 0.4;
   color: rgb(255, 255, 255);
   margin-left: -11px;
@@ -313,7 +314,7 @@ section {
   width: 30px;
   color: rgb(255, 255, 255);
   border: 2px solid #f1f1f1;
- 
+
 }
 
 .LineBox2 {
@@ -336,38 +337,39 @@ section {
 
 
 .img-fluid {
-  
+
   margin-left: -12px;
   background: url(Home/images/gold-mine-2327337_640.jpg);
   animation: slide 20s infinite;
 
   filter: brightness(100%)
-
 }
 
 
 .button {
-  padding: 5px 10px; 
-  background-color: #b13942; 
-  color: white; 
-  border: none; 
-  cursor: pointer; 
-  font-size: 16px; 
-  transition: all 0.3s ease; 
-  
+  padding: 5px 10px;
+  background-color: #b13942;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+
 }
 
 .button:hover {
   background-color: #b13942;
-  color:white ;
- 
+  color: white;
+
 }
 
 /* Media Query for Responsive Button */
 @media (max-width: 768px) {
   .button {
-    font-size: 14px; /* Decrease font size for smaller screens */
-    padding: 8px 16px; /* Adjust padding for smaller screens */
+    font-size: 14px;
+    /* Decrease font size for smaller screens */
+    padding: 8px 16px;
+    /* Adjust padding for smaller screens */
   }
 }
 
@@ -377,19 +379,19 @@ section {
 @keyframes slide {
 
   25% {
-      background: url(Home/images/mining626.jpg);
+    background: url(Home/images/mining626.jpg);
   }
 
   50% {
-      background: url(Home/images/ruhr-area-696561_640.jpg);
+    background: url(Home/images/ruhr-area-696561_640.jpg);
   }
 
   75% {
-      background: url(Home/images/rustenburg\ mine\ map.jpg);
+    background: url(Home/images/rustenburg\ mine\ map.jpg);
   }
 
   100% {
-      background: url(Home/images/rusternburg.jpg);
+    background: url(Home/images/rusternburg.jpg);
   }
 }
 
@@ -2306,8 +2308,8 @@ section {
   position: relative;
   background-color: #b13942;
   padding: 60px 0 0 0;
-margin-top: -180px;
-margin-left: -5x;
+  margin-top: -180px;
+  margin-left: -5x;
 
 }
 
@@ -3125,34 +3127,36 @@ margin-left: -5x;
 
 .buttonAccomodation {
   margin-top: 10px;
-  padding: 3px 10px; 
+  padding: 3px 10px;
   background-color: white;
-  color: #b13942;; 
-  border: 1px solid white; 
+  color: #b13942;
+  ;
+  border: 1px solid white;
 
-  cursor: pointer; 
-  font-size: 16px; 
-  transition: all 0.3s ease; 
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
   font-weight: bolder;
 }
 
 .buttonAccomodation:hover {
   background-color: white;
-  color:maroon ;
+  color: maroon;
   font-weight: bolder;
 }
 
 .buttonPlacesOfInterest {
   margin-top: 10px;
-height: 30px;
-width: 100px;
+  height: 30px;
+  width: 100px;
   background-color: white;
-  color: #b13942;; 
-  border: 1px solid white; 
-margin-left: 850px;
-  cursor: pointer; 
-  font-size: 16px; 
-  transition: all 0.3s ease; 
+  color: #b13942;
+  ;
+  border: 1px solid white;
+  margin-left: 850px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
   font-weight: bolder;
 }
 
@@ -3169,9 +3173,10 @@ margin-left: 850px;
 .vl {
   border-left: 1px solid #f8eed3;
   height: 1200px;
-margin-top: -1120px;
+  margin-top: -1120px;
   margin-left: 930px;
 }
+
 /* Tour guide */
 
 
@@ -3201,7 +3206,7 @@ div.desc {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
-  
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -3226,7 +3231,9 @@ div.desc {
 
 /* contact ud form */
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #efefef;
@@ -3270,25 +3277,25 @@ input[type=submit]:hover {
 .gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float:left;
+  float: left;
   width: 300px;
   height: 450px;
- margin-left: -30px;
- background-color: white;
+  margin-left: -30px;
+  background-color: white;
 }
 
-.ButtonTourist{
+.ButtonTourist {
   background-color: #b13942;
   color: white;
   border: none;
   height: 40px;
   width: 100px;
   margin-left: 90px;
- 
+
 }
 
 
-.ButtonTourist2{
+.ButtonTourist2 {
   background-color: #f8eed3;
   color: #b13942;
   border: none;
@@ -3296,9 +3303,12 @@ input[type=submit]:hover {
   width: 150px;
   margin-left: 90px;
   margin-top: -210px;
-  button.ButtonTourist2 {border-style: outset;}
 
- 
+  button.ButtonTourist2 {
+    border-style: outset;
+  }
+
+
 }
 
 
@@ -3317,9 +3327,11 @@ desc {
   text-align: center;
 }
 
- /* contact ud form */
-  
- input[type=text], select, textarea {
+/* contact ud form */
+
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #efefef;
@@ -3354,3 +3366,81 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+
+/* Auto Changing start*/
+.Section_top {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  animation: change 10s infinite ease-in-out;
+}
+
+.content {
+  background-image: url(../BackgroundImage/img1.jpg);
+  background-blend-mode: darken;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+
+}
+
+.content h1 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 15px;
+}
+
+.content h1 span {
+  color: #111;
+}
+
+.content a {
+  background: #85c1ee;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.content a:hover {
+  background: #034e88;
+  color: #fff;
+}
+
+@keyframes change {
+  0% {
+    background-image: url(../BackgroundImage/img1.jpg);
+  }
+
+  20% {
+    background-image: url(../BackgroundImage/img1.jpg);
+  }
+
+  40% {
+    background-image: url(../BackgroundImage/img1.jpg);
+  }
+
+  60% {
+    background-image: url(../BackgroundImage/img6.jpg);
+  }
+
+  80% {
+    background-image: url(../BackgroundImage/img8.jpg);
+
+  }
+
+  100% {
+    background-image: url(../BackgroundImage/img9.jpg);
+  }
+}
+
+/* Auto Changing end*/
